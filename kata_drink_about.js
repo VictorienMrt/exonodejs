@@ -8,6 +8,7 @@ function doubleChar(str) {
     stringTmp += str[i];
   }
   console.log(stringTmp);
+  return stringTmp;
 }
 
 doubleChar("string");
